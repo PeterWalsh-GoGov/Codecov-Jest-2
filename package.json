@@ -5,7 +5,7 @@
   "repository": "git@github.com:PeterWalsh-GoGov/Codecov-Jest.git",
   "license": "MIT",
   "scripts": {
-    "test": "yarn jest"
+    "test": "yarn jest --coverage"
   },
   "devDependencies": {
     "@types/jest": "^29.5.14",
