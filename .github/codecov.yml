@@ -9,9 +9,21 @@ coverage:
           - unit
         paths: 
           - "src"
-       # advanced settings
         branches: 
           - main
         if_ci_failed: error #success, failure, error, ignore
         informational: false
         only_pulls: false
+    patch:
+      default:
+        target: auto
+        threshold: 0%
+        base: auto 
+        branches: 
+          - main
+        if_ci_failed: error #success, failure, error, ignore
+        only_pulls: false
+        flags: 
+          - "unit"
+        paths: 
+          - "src"
