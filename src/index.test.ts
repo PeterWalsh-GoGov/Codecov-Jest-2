@@ -6,6 +6,10 @@ describe("add", () => {
     expect(add(1, 2)).toBe(3)
   })
 
+  it("should return 0 if num1 is 0", () => {
+    expect(add(0, 2)).toBe(0);
+  })
+
 })
 
 describe("sub", () => {
