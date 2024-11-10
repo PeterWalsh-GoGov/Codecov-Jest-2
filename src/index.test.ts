@@ -1,4 +1,4 @@
-import { add, sub } from ".";
+import { add, sub } from "..";
 
 describe("add", () => {
 
